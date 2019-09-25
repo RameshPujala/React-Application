@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.Hidden { 
+  display:none;
+ }
+
+.App-header {
+  background-color: #4ec2af;
+  min-height: 10vh;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: rgb(139, 20, 11);
+}
+.App-body {
+  background-color: #21d15c;
+  min-height: 10vh;
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-Remove {
+  color: #f70909;
+}
+
+.App-Details {
+  color: #221010;
+}
+.App-Fields {
+  color: #f30b1e;
+  display: flex;  
+  /* align-items: center; */
+}
+.App-Edit {
+  color: #630af3;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
